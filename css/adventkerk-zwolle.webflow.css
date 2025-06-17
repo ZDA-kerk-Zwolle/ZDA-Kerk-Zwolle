@@ -3188,7 +3188,7 @@
 
   .container__hero {
     height: 80vh;
-    min-height: 500px;
+    min-height: 600px;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -3216,6 +3216,8 @@
   .div__hero--text {
     margin-top: 4rem;
     margin-left: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .div__why--list {
