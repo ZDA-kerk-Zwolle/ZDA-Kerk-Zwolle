@@ -2730,7 +2730,7 @@
   .flexbox__why, .flexbox__info {
     flex-flow: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .flexbox__info._1 {
@@ -2738,7 +2738,7 @@
     grid-row-gap: 0px;
     flex-flow: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .hero__button--up {
@@ -3187,6 +3187,8 @@
   }
 
   .container__hero {
+    height: 80vh;
+    min-height: 500px;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -3254,6 +3256,11 @@
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .flexbox__info._1 {
+    justify-content: space-between;
+    align-items: center;
   }
 
   .hero__button--up {
