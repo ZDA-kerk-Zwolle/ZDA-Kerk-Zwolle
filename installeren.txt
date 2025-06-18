@@ -1,0 +1,66 @@
+<form
+  id="email-form"
+  name="email-form"
+  data-name="Email Form"
+  action="https://form2channel.com"
+  method="POST"
+  class="form__contact"
+  data-wf-page-id="67eae44f25ba978e9a0cc58c"
+  data-wf-element-id="e80cedc5-d795-b034-ef0e-5114ba2a6201"
+>
+  <input
+    type="hidden"
+    name="formto_email"
+    value="adventkerkzwolle@gmail.com"
+  />
+  <input type="hidden" name="formto_redirect" value="/bedankt.html" />
+  <input type="hidden" name="formto_error" value="/error.html" />
+
+  <input
+    class="text_field--name w-input"
+    maxlength="256"
+    name="naam"
+    data-name="naam"
+    placeholder="Uw naam"
+    type="text"
+    id="naam"
+    required=""
+  /><input
+    class="text__filed--email w-input"
+    maxlength="256"
+    name="email"
+    data-name="email"
+    placeholder="Uw e-mailadres"
+    type="email"
+    id="email"
+    required=""
+  /><textarea
+    id="bericht"
+    name="bericht"
+    maxlength="1000"
+    data-name="bericht"
+    placeholder="Uw bericht"
+    class="text_area w-input"
+  ></textarea
+  ><input
+    type="submit"
+    data-wait="Een moment..."
+    class="send__button w-button"
+    value="Verzenden"
+  />
+  <textarea
+    name="formto_honey"
+    style="
+      display: inline;
+      width: 0px;
+      height: 0px;
+      border: 0;
+      padding: 0;
+      margin: 0;
+    "
+  ></textarea>
+</form>
+
+<a href="/files/Privacyverklaring Pixel Diensten.pdf.pdf" class="link__footer--2">Privacyverklaring</a>
+
+index.html veranderen naar /

@@ -379,7 +379,7 @@
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 60px;
 }
 
@@ -504,7 +504,8 @@
   justify-content: flex-start;
   align-items: center;
   max-width: 73rem;
-  min-height: 80vh;
+  height: 80vh;
+  min-height: 700px;
   margin-left: auto;
   margin-right: auto;
   padding: 4rem 0% 0 0;
@@ -529,6 +530,7 @@
   background-position: 50%;
   background-size: cover;
   height: auto;
+  min-height: auto;
   margin-left: 0;
   margin-right: 0;
   padding-left: 3.75rem;
@@ -810,7 +812,7 @@
 .section__header--subpages-flexbox {
   justify-content: flex-start;
   align-items: center;
-  height: 21rem;
+  height: 22rem;
   padding-left: 0;
   padding-right: 0;
   display: flex;
@@ -1313,7 +1315,7 @@
 .paragraph__info---copy {
   color: #000;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-size: 24px;
   line-height: 35px;
 }
@@ -1649,6 +1651,25 @@
   color: #0006;
 }
 
+.why__button-zendingsbericht {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 20px;
+  min-width: 300px;
+  max-width: 300px;
+  margin-bottom: 6rem;
+  margin-right: 0;
+  padding: 1rem 2rem;
+  font-size: 22px;
+}
+
+.why__button-zendingsbericht:hover {
+  color: #0006;
+  background-color: #0006;
+}
+
 @media screen and (min-width: 1280px) {
   .contact__button--navbar {
     border-radius: 15px;
@@ -1885,7 +1906,7 @@
     justify-content: flex-start;
     align-items: center;
     max-width: 73rem;
-    min-height: 80vh;
+    min-height: 700px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 4rem;
@@ -1909,6 +1930,7 @@
     justify-content: flex-start;
     align-items: center;
     height: auto;
+    min-height: auto;
     margin-left: 0;
     margin-right: 0;
     padding-left: 3.75rem;
@@ -2122,7 +2144,7 @@
   .section__header--subpages-flexbox {
     justify-content: flex-start;
     align-items: center;
-    height: 26rem;
+    height: 27rem;
     padding-left: 0;
     padding-right: 0;
   }
@@ -2455,6 +2477,16 @@
   .link__footer---copy {
     margin-bottom: 0;
   }
+
+  .why__button-zendingsbericht {
+    border: 3px solid #000;
+    font-size: 22px;
+  }
+
+  .why__button-zendingsbericht:hover {
+    color: #0006;
+    background-color: #0006;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2670,7 +2702,8 @@
   .container__hero {
     justify-content: flex-start;
     align-items: center;
-    min-height: 80vh;
+    height: 80vh;
+    min-height: 700px;
     padding-left: 0;
     display: flex;
   }
@@ -2707,6 +2740,7 @@
 
   .paragraph__info {
     max-width: 600px;
+    margin-bottom: 1rem;
     font-size: 20px;
   }
 
@@ -2756,8 +2790,17 @@
   }
 
   .div__text--left {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     margin-right: 0;
+  }
+
+  .div__text--left._1 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-right: 0;
+    display: flex;
   }
 
   .header__clients {
@@ -2814,7 +2857,7 @@
   }
 
   .section__header--subpages-flexbox {
-    height: 18rem;
+    height: 19rem;
     padding-left: 0;
     padding-right: 0;
   }
@@ -2850,8 +2893,11 @@
 
   .why__button--geloofspunten {
     background-color: #fff;
+    flex-flow: row;
+    flex: 0 auto;
     min-width: 260px;
     max-width: 260px;
+    display: block;
   }
 
   .paragraph__info---copy {
@@ -2988,9 +3034,26 @@
     max-width: 320px;
   }
 
-  .why__button---copy-copy-copy-copy, .why__button---lesboekje, .why__button---copy-copy-copy-copy-copy, .why__button---lesboek {
+  .why__button---copy-copy-copy-copy {
     background-color: #fff;
     max-width: 400px;
+  }
+
+  .why__button---lesboekje {
+    background-color: #fff;
+    max-width: 400px;
+    margin-right: 0;
+  }
+
+  .why__button---copy-copy-copy-copy-copy {
+    background-color: #fff;
+    max-width: 400px;
+  }
+
+  .why__button---lesboek {
+    background-color: #fff;
+    max-width: 400px;
+    margin-right: 0;
   }
 
   .why__button--anbi {
@@ -2999,17 +3062,24 @@
     max-width: 300px;
   }
 
-  .paragraph__info---copy-copy-copy, .paragraph__info---copy-copy-copy-copy, .paragraph__info---copy-copy-copy-copy-copy, .paragraph__info--over {
+  .paragraph__info---copy-copy-copy, .paragraph__info---copy-copy-copy-copy, .paragraph__info---copy-copy-copy-copy-copy {
     max-width: 600px;
     font-size: 20px;
   }
 
+  .paragraph__info--over {
+    max-width: 600px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
+
   .div__why--text-meer-info {
-    margin-bottom: 5rem;
+    margin-bottom: 0;
     margin-right: 0;
   }
 
   .paragraph__info--archieftekst {
+    margin-bottom: 1rem;
     font-size: 20px;
   }
 
@@ -3020,6 +3090,39 @@
   .paragraph__info--meerinfo-copy {
     max-width: 600px;
     font-size: 20px;
+  }
+
+  .div__bezoek--flex {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    display: flex;
+  }
+
+  .div-block-56, .div-block-57 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .div-block-57-copy {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    display: flex;
+  }
+
+  .div__flex--geloofspunten, .div__flex--meerinfo, .div__flex--youtube {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    display: flex;
+  }
+
+  .why__button-zendingsbericht {
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 300px;
   }
 }
 
@@ -3076,7 +3179,7 @@
   .div__why--left {
     min-width: auto;
     max-width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
   }
 
   .send__button {
@@ -3141,7 +3244,7 @@
   .div__why--header {
     text-align: left;
     max-width: 400px;
-    font-size: 39px;
+    font-size: 40px;
   }
 
   .div-block-38 {
@@ -3188,7 +3291,7 @@
 
   .container__hero {
     height: 80vh;
-    min-height: 600px;
+    min-height: 700px;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
@@ -3204,6 +3307,7 @@
   }
 
   .section__hero--all {
+    min-height: auto;
     padding-left: 2rem;
     padding-right: 2rem;
     display: block;
@@ -3216,8 +3320,6 @@
   .div__hero--text {
     margin-top: 4rem;
     margin-left: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .div__why--list {
@@ -3341,7 +3443,7 @@
   }
 
   .section__header--subpages-flexbox {
-    height: 18rem;
+    height: 19rem;
     padding-left: 0;
     padding-right: 0;
   }
@@ -3570,6 +3672,18 @@
   .paragraph__info--meerinfo-copy {
     font-size: 22px;
   }
+
+  .div__bezoek--flex, .div__flex--meerinfo, .div__flex--youtube {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .why__button-zendingsbericht {
+    color: #000;
+    background-color: #fff;
+    padding: .8rem 1.5rem;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3708,7 +3822,7 @@
   .div__why--header {
     color: #000;
     max-width: none;
-    font-size: 32px;
+    font-size: 35px;
   }
 
   .div__why--image {
@@ -3767,7 +3881,9 @@
   }
 
   .container__hero {
-    min-height: 80vh;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 700px;
     padding-top: 4rem;
     padding-bottom: 0;
     padding-left: 0;
@@ -3900,6 +4016,10 @@
     font-size: 40px;
   }
 
+  .div__info--left {
+    margin-bottom: 0;
+  }
+
   .div__info--left._1 {
     min-width: auto;
     max-width: 100%;
@@ -3969,7 +4089,7 @@
   }
 
   .section__header--subpages-flexbox {
-    height: 19rem;
+    height: 20rem;
   }
 
   .section__algemeen--info {
@@ -4253,6 +4373,24 @@
     margin-bottom: 0;
     font-size: 22px;
     line-height: 30px;
+  }
+
+  .div__bezoek--flex, .div__flex--geloofspunten, .div__flex--meerinfo, .div__flex--youtube {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why__button-zendingsbericht {
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    min-width: 260px;
+    max-width: 260px;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    display: block;
   }
 }
 
