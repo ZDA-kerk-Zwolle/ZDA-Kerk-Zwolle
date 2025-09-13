@@ -64,3 +64,21 @@
 <a href="/files/Privacyverklaring Pixel Diensten.pdf.pdf" class="link__footer--2">Privacyverklaring</a>
 
 index.html veranderen naar /
+
+Altijd updaten:
+preekrooster
+evangelisatie
+nadenkertje
+uitgelicht
+Mededelingen
+foto met gedicht
+
+Volgorde:
+preekrooster
+mededelingen
+evangelisatie
+nadenkertje
+uitgelicht
+collecten
+zendingsbericht
+foto met gedicht
